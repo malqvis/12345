@@ -2,8 +2,10 @@
 main()
 {
 int:y,x;
-printf(" Enter number x/n")
-scan("%d",&x);
+printf(" Enter number x/n");
+scan("%d",&x)
 y=sqrt(x)+10
+c=y*2
+printf("%d/n",c);
 retutn 0;
 }
